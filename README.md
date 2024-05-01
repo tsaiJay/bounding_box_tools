@@ -1,6 +1,8 @@
 # tool_for_labelImg
 Here are some helpful tools to enhance your experience while using labelIMG for labeling in YOLO format.
 
+When certain objects remain stationary and appear consistently in the same position, it becomes necessary to repeatedly crop the bounding box. Here's a simple code to streamline this process.
+
 > NOTE: The tool is designed for fixed camera scenarios, where the camera remains stationary and does not move.
 
 ## Manual
