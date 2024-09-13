@@ -10,14 +10,14 @@ When certain objects remain stationary and appear consistently in the same posit
 
 1. tool1_clean_specific_center.py
 
-Remove bounding boxes based on their center position. When `SET_MODE=False`, any bounding box with its center falling within the specified range (marked by a red rectangle) will be deleted.
+Remove bounding boxes based on their center position. When `SET_MODE=True`, the configuration result will be displayed in the window without modifying the document. When `SET_MODE=False`, any bounding box with its center falling within the specified range (marked by a red rectangle) will be deleted.
 
 > note: green grid for coordinate reference. bboxes center in the red boxes will be removed.
 
 ![image](https://github.com/tsaiJay/bounding_box_tools/blob/main/example_files/img_filter_area.png)
 
 2. tool2_add_specific_bboxes.py
-You must prepare a `.txt` file containing labels in YOLO format. When `SET_MODE=False`, These labels will then be added to all label files in the folder.
+You must prepare a `.txt` file containing labels in YOLO format. When `SET_MODE=True`, the configuration result will be displayed in the window without modifying the document. When `SET_MODE=False`, these labels will then be added to all label files in the folder.
 
 ![image](https://github.com/tsaiJay/bounding_box_tools/blob/main/example_files/img_fix_bbox.png)
 
