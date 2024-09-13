@@ -1,4 +1,5 @@
-# tool_for_labelImg
+# bounding_box_tools
+
 Here are some helpful tools to enhance your experience while managing label files in YOLO format.
 
 When certain objects remain stationary and appear consistently in the same position, it becomes necessary to repeatedly crop the bounding box. Here's a simple code to streamline this process.
