@@ -6,7 +6,13 @@ When certain objects remain stationary and appear consistently in the same posit
 
 > NOTE: The tool is designed for fixed camera scenarios, where the camera remains stationary and does not move.
 
-## Manual
+## Install requirements
+
+```
+pip install opencv-python
+```
+
+## Usage
 
 1. tool1_clean_specific_center.py
 
